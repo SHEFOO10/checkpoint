@@ -52,12 +52,5 @@
         "php": "^8.1",
         "filament/spatie-laravel-settings-plugin": "3.x",
         "filament/notifications": "3.x"
-    },
-    "require": {
-        "pestphp/pest": "3.x",
-        "orchestra/testbench": "9.x",
-        "pestphp/pest-plugin-livewire": "3.x",
-        "pestphp/pest-plugin-laravel": "3.x",
-        "laravel/pint": "dev-main"
     }
 }
