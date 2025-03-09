@@ -1,9 +1,10 @@
 {
-    "name": "askerakbar/checkpoint",
+    "name": "shefoo10/checkpoint",
     "description": "This Filament PHP plugin improves login security by letting you customize rate-limiting settings like duration and the number of attempts. It also notifies admins about suspicious activity",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/askerakbar/checkpoint/",
+    "homepage": "https://github.com/shefoo10/checkpoint/",
+    "version": "0.0.1",
     "keywords": [
         "filament",
         "filament-auth",
@@ -21,7 +22,7 @@
             ]
         }
     },
-    "autoload": {
+    "autoload-dev": {
         "psr-4": {
             "AskerAkbar\\Checkpoint\\Tests\\": "tests/"
         }
