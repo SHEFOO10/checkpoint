@@ -21,7 +21,7 @@
             ]
         }
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "AskerAkbar\\Checkpoint\\Tests\\": "tests/"
         }
@@ -49,14 +49,14 @@
     ],
     "require": {
         "php": "^8.1",
-        "filament/spatie-laravel-settings-plugin": "3.x-dev",
-        "filament/notifications": "3.x-dev"
+        "filament/spatie-laravel-settings-plugin": "3.x",
+        "filament/notifications": "3.x"
     },
-    "require-dev": {
-        "pestphp/pest": "3.x-dev",
-        "orchestra/testbench": "9.x-dev",
-        "pestphp/pest-plugin-livewire": "3.x-dev",
-        "pestphp/pest-plugin-laravel": "3.x-dev",
+    "require": {
+        "pestphp/pest": "3.x",
+        "orchestra/testbench": "9.x",
+        "pestphp/pest-plugin-livewire": "3.x",
+        "pestphp/pest-plugin-laravel": "3.x",
         "laravel/pint": "dev-main"
     }
 }
