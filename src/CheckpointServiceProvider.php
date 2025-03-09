@@ -16,12 +16,13 @@ class CheckpointServiceProvider extends PackageServiceProvider
         $package->name(static::$name)
             ->hasMigration('2024_10_03_140231_create_checkpoint_settings')
             ->hasTranslations()
+            ->hasViews()
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->askToRunMigrations()
                     ->publishMigrations()
                     ->copyAndRegisterServiceProviderInApp()
-                    ->askToStarRepoOnGitHub('askerakbar/checkpoint')
+                    ->askToStarRepoOnGitHub('shefoo10/checkpoint')
                     ->endWith(function (InstallCommand $command) {
                         $command->info('Have a great day!');
                     });
